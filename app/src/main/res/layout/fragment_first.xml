@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/countDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="210pt"
+        android:text="0"
+        android:textSize="60pt"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/action_plus"
+        android:layout_width="170pt"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add"
+        />
+
+    <ImageButton
+        android:id="@+id/action_minus"
+        android:layout_width="170pt"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_minus"
+        />
+
+</LinearLayout>
